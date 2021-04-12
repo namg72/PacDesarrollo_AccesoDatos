@@ -15,7 +15,7 @@ public class Alumno {
     public Alumno() {
     }
 
-    public Alumno( String nombre, String nacionalidad, int edad, String sexo) {
+    public Alumno(String nombre, String nacionalidad, int edad, String sexo) {
 
         this.nombre = nombre;
         this.nacionalidad = nacionalidad;
@@ -82,6 +82,11 @@ public class Alumno {
 
 
     }
+
+
+
+
+
 
 
     @Override

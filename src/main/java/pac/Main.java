@@ -112,7 +112,7 @@ public class Main {
         session.beginTransaction();
         session.save(modulo);
         session.getTransaction().commit();
-        System.out.println("Insert into modulo, nombre: "+ modulo.getNombre() +" "+ modulo.getCodigo());
+        System.out.println("Insert into modulo, nombre: "+ modulo.getNombre() +", codigo: "+ modulo.getCodigo());
 
     }
 }
